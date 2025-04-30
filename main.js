@@ -1,4 +1,3 @@
-// ==============================================
 // ================= 1-masala ==================
 // ==============================================
 // Shoxrux kosmosdagi parolini tekshirmoqchi 🚀
@@ -6,12 +5,18 @@
 // Input: const password = "spaceadventure2023";
 // startsWith va endsWith metodlaridan foydalaning.
 // Output: true
+// ============================================= yechim ==================================================
+// const password = "spaceadventure2023";
 
-function checkSpacePassword(password) {
-  // logika yozing
-}
+// function checkSpacePassword(password) {
+//   res = console.log(password.startsWith("space") && password.endsWith("2023"));
+//   return res;
+// }
 
-// ==============================================
+// checkSpacePassword(password);
+
+// ===============================================================================================
+
 // ================= 2-masala ==================
 // ==============================================
 // Zafarjon sirli xabarni ochmoqchi 🔍
@@ -20,11 +25,22 @@ function checkSpacePassword(password) {
 // includes va toUpperCase metodlaridan foydalaning.
 // Output: "SECRET CODE REVEALED"
 
-function decodeMessage(message) {
-  // logika yozing
-}
+// ===========================================yechim====================================================
 
-// ==============================================
+// const message = "secret code revealed";
+
+// function decodeMessage(message) {
+//   if (message.includes("code") === true) {
+//     console.log(message.toUpperCase());
+//   } else {
+//     console.log("cod aniqlanmadi !");
+//   }
+// }
+
+// decodeMessage(message);
+
+// ===============================================================================================
+
 // ================= 3-masala ==================
 // ==============================================
 // Ne'matjon super qahramon kostyumini tayyorlamoqda 💪
@@ -34,11 +50,18 @@ function decodeMessage(message) {
 // Output: "SPIDERMAN"
 // const hero = "spider";
 
+// ==============================================yechim=================================================
+// const hero = "spider";
+
 // function makeSuperHero(hero) {
-//   if (hero.endWith())
+//   res = hero.toUpperCase();
+//   reset = res.concat("man".toUpperCase());
+//   return reset;
 // }
 
-// ==============================================
+// console.log(makeSuperHero(hero));
+// ===============================================================================================
+
 // ================= 4-masala ==================
 // ==============================================
 // Doniyor ninja kodini yashirmoqchi 🙈
@@ -47,11 +70,20 @@ function decodeMessage(message) {
 // toLowerCase va trimStart metodlaridan foydalaning.
 // Output: "stealth mode"
 
-function hideNinjaCode(code) {
-  // logika yozing
-}
+// ========================================yechim=======================================================
 
-// ==============================================
+// const ninjaCode = "   STEALTH MODE";
+
+// function hideNinjaCode(ninjaCode) {
+//   res = ninjaCode.toLowerCase();
+//   resat = res.trimStart();
+//   return console.log(resat);
+// }
+
+// hideNinjaCode(ninjaCode);
+
+// ===============================================================================================
+
 // ================= 5-masala ==================
 // ==============================================
 // Hamidulloh pitsa buyurtmasini tozalamoqchi 🍕
@@ -60,11 +92,19 @@ function hideNinjaCode(code) {
 // trim va concat metodlaridan foydalaning.
 // Output: "spicypepperonipizza"
 
-function cleanPizzaOrder(pizza) {
-  // logika yozing
-}
+// ========================================yechim=======================================================
 
-// ==============================================
+// const pizza = "  spicy  pepperoni  ";
+// // console.log(pizza);
+
+// function cleanPizzaOrder(pizza) {
+//   res = pizza.trim().concat("pizza").split(" ").join("");
+//   console.log(res);
+// }
+
+// cleanPizzaOrder(pizza);
+
+// ====================================================================================================
 // ================= 6-masala ==================
 // ==============================================
 // Hayitali o'z qo'shig'ini 3 marta takrorlab, katta harflarga aylantirmoqchi 🎶
@@ -73,11 +113,18 @@ function cleanPizzaOrder(pizza) {
 // repeat va toUpperCase metodlaridan foydalaning.
 // Output: "LA LA LALA LA LALA LA LA"
 
-function amplifySong(song) {
-  // logika yozing
-}
+// ===============================================yechim=====================================================
 
-// ==============================================
+// const song = "la la la";
+
+// function amplifySong(song) {
+//   res = console.log(song.toUpperCase().repeat(3));
+//   return res;
+// }
+
+// amplifySong(song);
+
+// ===================================================================================================
 // ================= 7-masala ==================
 // ==============================================
 // Azizbek jamoasiga ikkita yangi o'yinchi qo'shmoqchi ⚽
@@ -86,11 +133,18 @@ function amplifySong(song) {
 // push va reverse metodlaridan foydalaning.
 // Output: ["Mbappe", "Neymar", "Ronaldo", "Messi"]
 
-function updateTeam(team) {
-  // logika yozing
-}
+// ===============================================yechim=====================================================
 
-// ==============================================
+// const team = ["Messi", "Ronaldo"];
+
+// function updateTeam(team) {
+//   team.push("Mbappe", "Neymar");
+//   return console.log(team.reverse());
+// }
+
+// updateTeam(team);
+
+// =========================================================================================================
 // ================= 8-masala ==================
 // ==============================================
 // Asilbek jamoasidan oxirgi o'yinchini olib tashlab, ro'yxatni qatorga aylantirmoqchi 😢
@@ -99,11 +153,19 @@ function updateTeam(team) {
 // pop va join metodlaridan foydalaning.
 // Output: "Messi,Ronaldo"
 
-function shrinkTeam(team) {
-  // logika yozing
-}
+// ===============================================yechim=====================================================
 
-// ==============================================
+// const team = ["Messi", "Ronaldo", "Neymar"];
+
+// function shrinkTeam(team) {
+//   team.pop();
+//   res = team.join(",");
+//   return console.log(res);
+// }
+
+// shrinkTeam(team);
+
+// ===========================================================================================================
 // ================= 9-masala ==================
 // ==============================================
 // Fayzullo ranglar ro'yxatini teskari qilib, ularni bo'shliq bilan birlashtirmoqchi 🌈
@@ -112,11 +174,19 @@ function shrinkTeam(team) {
 // reverse va join metodlaridan foydalaning.
 // Output: "green blue red"
 
-function mixColors(colors) {
-  // logika yozing
-}
+// ===============================================yechim=====================================================
 
-// ==============================================
+// const colors = ["red", "blue", "green"];
+
+// function mixColors(colors) {
+//   colors.reverse();
+//   res = console.log(colors.join(" "));
+//   return res;
+// }
+
+// mixColors(colors);
+
+// ==========================================================================================================
 // ================= 10-masala ==================
 // ==============================================
 // Shoxrux o'z jamoasini tekshirib, agar "Messi" bo'lsa, ro'yxatni qatorga aylantirmoqchi 📋
@@ -125,8 +195,14 @@ function mixColors(colors) {
 // includes va join metodlaridan foydalaning.
 // Output: "Messi,Ronaldo,Neymar"
 
+// ===============================================yechim=====================================================
+
+const team = ["Messi", "Ronaldo", "Neymar"];
+
 function checkTeam(team) {
-  // logika yozing
+  if (team.includes("Messi") === true) {
+    return console.log(team.join(""));
+  }
 }
 
 // ==============================================
