@@ -197,15 +197,21 @@
 
 // ===============================================yechim=====================================================
 
-const team = ["Messi", "Ronaldo", "Neymar"];
+// const team = ["Messi", "Ronaldo", "Neymar"];
 
-function checkTeam(team) {
-  if (team.includes("Messi") === true) {
-    return console.log(team.join(""));
-  }
-}
+// function checkTeam(team) {
+//   if (team.includes("Messi") === true) {
+//     res = console.log(team.join(", "));
+//   } else {
+//     res = console.log("Masala hato ishlandi !");
+//   }
+//   return res;
+// }
 
-// ==============================================
+// checkTeam(team);
+
+// =========================================================================================================
+
 // ================= 11-masala ==================
 // ==============================================
 // Zafarjon o'z ismini boshqa ism bilan birlashtirib, katta harflarga aylantirmoqchi 🤝
@@ -214,11 +220,18 @@ function checkTeam(team) {
 // concat va toUpperCase metodlaridan foydalaning.
 // Output: "ZAFARJON"
 
-function combineAndUpper(name1, name2) {
-  // logika yozing
-}
+// ===============================================yechim=====================================================
+// const name1 = "Zafar";
+// const name2 = "jon";
 
-// ==============================================
+// function combineAndUpper(name1, name2) {
+//   res = name1.concat(name2).toUpperCase();
+//   return console.log(res);
+// }
+
+// combineAndUpper(name1, name2);
+
+// ==========================================================================================================
 // ================= 12-masala ==================
 // ==============================================
 // Ne'matjon parolida "secret" so'zi borligini tekshirib, uni teskari qilmoqchi 🔐
@@ -227,11 +240,20 @@ function combineAndUpper(name1, name2) {
 // includes va toUpperCase metodlaridan foydalaning.
 // Output: "MYSECRETPASSWORD"
 
-function reversePassword(password) {
-  // logika yozing
-}
+// ===============================================yechim=====================================================
 
-// ==============================================
+// const password = "mysecretpassword";
+
+// function reversePassword(password) {
+//   if (password.includes("secret") === true) {
+//     return console.log(password.toUpperCase());
+//   } else {
+//     return "hato code mavjud";
+//   }
+// }
+// reversePassword(password);
+
+// ============================================================================================================
 // ================= 13-masala ==================
 // ==============================================
 // Doniyor jamoasiga yangi o'yinchi qo'shib, ro'yxatni teskari qilmoqchi ⚽
@@ -240,11 +262,18 @@ function reversePassword(password) {
 // unshift va reverse metodlaridan foydalaning.
 // Output: ["Ronaldo", "Messi", "Mbappe"]
 
-function starTeam(team) {
-  // logika yozing
-}
+// ===============================================yechim=====================================================
 
-// ==============================================
+// const team = ["Messi", "Ronaldo"];
+
+// function starTeam(team) {
+//   team.unshift("Mbappe");
+//   return console.log(team.reverse());
+// }
+
+// starTeam(team);
+
+// ===========================================================================================================
 // ================= 14-masala ==================
 // ==============================================
 // Hamidulloh jamoasining birinchi o'yinchisini olib tashlab, qatorga aylantirmoqchi 😢
@@ -252,12 +281,19 @@ function starTeam(team) {
 // Input: const team = ["Messi", "Ronaldo", "Neymar"];
 // shift va join metodlaridan foydalaning.
 // Output: "Ronaldo Neymar"
+// const team = ["Messi", "Ronaldo", "Neymar"];
 
-function updateRoster(team) {
-  // logika yozing
-}
+// ===============================================yechim=====================================================
 
-// ==============================================
+// function updateRoster(team) {
+//   team.shift();
+//   res = team.join(" ");
+//   return console.log(res);
+// }
+
+// updateRoster(team);
+
+// =============================================================================================================
 // ================= 15-masala ==================
 // ==============================================
 // Hayitali kodida "error" so'zini topib, uni katta harflarga aylantirmoqchi 🐞
@@ -266,11 +302,23 @@ function updateRoster(team) {
 // search va toUpperCase metodlaridan foydalaning.
 // Output: "DEBUG THIS ERROR NOW"
 
-function fixCode(code) {
-  // logika yozing
-}
+// ===============================================yechim=======================================================
 
-// ==============================================
+// const code = "debug this error now";
+// // console.log(code.search("error"));
+
+// function fixCode(code) {
+//   if (code.search("error") !== -1) {
+//     res = code.toUpperCase();
+//     return console.log(res);
+//   } else {
+//     return console.log("so'z topilmadi");
+//   }
+// }
+
+// fixCode(code);
+
+// =============================================================================================================
 // ================= 16-masala ==================
 // ==============================================
 // Azizbek kodini tozalab, oxiriga "done" qo'shmoqchi 📝
@@ -279,11 +327,17 @@ function fixCode(code) {
 // trimStart va concat metodlaridan foydalaning.
 // Output: "write codedone"
 
-function finishCode(code) {
-  // logika yozing
-}
+// ===============================================yechim=======================================================
 
-// ==============================================
+// const code = "   write code";
+
+// function finishCode(code) {
+//   return console.log(code.trimStart().concat("done"));
+// }
+
+// finishCode(code);
+
+// =============================================================================================================
 // ================= 17-masala ==================
 // ==============================================
 // Asilbek kodini tozalab, boshiga "start" qo'shmoqchi 📝
@@ -292,11 +346,17 @@ function finishCode(code) {
 // trimEnd va concat metodlaridan foydalaning.
 // Output: "startcode now"
 
-function startCode(code) {
-  // logika yozing
-}
+// ===============================================yechim=======================================================
 
-// ==============================================
+// const code = "code now   ";
+
+// function startCode(code) {
+//   return console.log("start".concat(code.trimEnd()));
+// }
+
+// startCode(code);
+
+// ============================================================================================================
 // ================= 18-masala ==================
 // ==============================================
 // Fayzullo o'z ismi "bek" bilan tugasa, uni katta harflarga aylantirmoqchi 😄
@@ -305,11 +365,21 @@ function startCode(code) {
 // endsWith va toUpperCase metodlaridan foydalaning.
 // Output: "FAYZULLOBEK"
 
-function checkAndUpperName(name) {
-  // logika yozing
-}
+// ===============================================yechim=======================================================
 
-// ==============================================
+// const name = "Fayzullobek";
+
+// function checkAndUpperName(name) {
+//   if (name.endsWith("bek") === true) {
+//     res = console.log(name.toUpperCase());
+//     return res;
+//   }else {
+//     return console.log("bek so'zi ohirida topilmadi");}
+// }
+
+// checkAndUpperName(name);
+
+// =============================================================================================================
 // ================= 19-masala ==================
 // ==============================================
 // Shoxrux ro'yxatida "pizza" borligini tekshirib, ro'yxatni qatorga aylantirmoqchi 🍕
@@ -318,11 +388,22 @@ function checkAndUpperName(name) {
 // includes, reverse va join metodlaridan foydalaning.
 // Output: "sushi pizza burger"
 
-function checkAndJoinFoods(foods) {
-  // logika yozing
-}
+// ===============================================yechim=======================================================
 
-// ==============================================
+// const foods = ["burger", "pizza", "sushi"];
+
+// function checkAndJoinFoods(foods) {
+//   if (foods.includes("pizza") === true) {
+//     res = foods.reverse().join(" ");
+//     return console.log(res);
+//   } else {
+//     return console.log("pizza errayda yoq ekan ");
+//   }
+// }
+
+// checkAndJoinFoods(foods);
+
+// ===========================================================================================================
 // ================= 20-masala ==================
 // ==============================================
 // Zafarjon o'z ismini katta harflarga aylantirib, "code" so'zini qidirmoqchi 😎
@@ -331,6 +412,13 @@ function checkAndJoinFoods(foods) {
 // toUpperCase va includes metodlaridan foydalaning.
 // Output: true
 
-function checkCodeInName(name) {
-  // logika yozing
-}
+// ===============================================yechim=======================================================
+
+// const name = "zafarcodejon";
+
+// function checkCodeInName(name) {
+//   res = name.toUpperCase();
+//   return console.log(res.includes("CODE"));
+// }
+
+// checkCodeInName(name);
